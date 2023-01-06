@@ -1,11 +1,14 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 
 /*this is the header part*/
 .headers {
-    background-image: url('/images/banner/banner3.png');
+    background-image: url("/images/banner/banner3.png");
 
 }
 
@@ -54,5 +57,39 @@
     border: 0px;
     text-align: center;
     float: right;
+
+}
+
+/*this is main porction person part*/
+.person {
+    display: flex;
+    margin-top: 131px;
+}
+
+.person_info {}
+
+.person-title {
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #151414;
+}
+
+.person_description1 {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #444343;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    margin-left: 68px;
+}
+
+.person_point {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 5px;
 
 }
