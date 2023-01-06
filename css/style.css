@@ -182,3 +182,75 @@
     margin-bottom: 59px;
 
 }
+
+/* this is the footer part */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    ;
+}
+
+.information {
+    margin-top: 199px;
+    margin-left: 230px;
+    margin-right: 331px;
+    margin-bottom: 199px;
+}
+
+.information_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #F8F8F8;
+}
+
+.information_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.email,
+.phone {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.icons {
+    display: flex;
+    gap: 17px;
+    margin-top: 32px;
+}
+
+.contract {
+    margin-top: 199px;
+    margin-right: 230px;
+
+}
+
+.form_title {
+    color: #F8F8F8;
+}
+
+.primary_btn3 {
+    width: 160px;
+    padding: 25px 20px;
+    color: #e7e9eb;
+    background-color:
+        #1619d1;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 59px;
+
+}
