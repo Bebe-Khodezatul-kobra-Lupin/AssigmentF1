@@ -9,6 +9,8 @@
 /*this is the header part*/
 .headers {
     background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 
@@ -63,27 +65,34 @@
 /*this is main porction person part*/
 .person {
     display: flex;
+    align-items: center;
+    gap: 87px;
+
     margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 322px;
+    margin-bottom: 129px;
 }
 
 .person_info {}
 
 .person-title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 25px;
 
     color: #151414;
+    margin-bottom: 24px;
+
 }
 
 .person_description1 {
     font-weight: 400;
     font-size: 16px;
 
-
     color: #444343;
     margin-bottom: 20px;
     margin-top: 24px;
-    margin-left: 68px;
+
 }
 
 .person_point {
@@ -91,5 +100,85 @@
     font-size: 16px;
     color: #444343;
     margin: 5px;
+
+
+
+}
+
+
+/* skils style part */
+
+
+.skils_title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.types_skils {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_skil {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+
+}
+
+.description_skil {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+.skil_img {
+    margin-left: 60px;
+    justify-content: center;
+
+}
+
+/* bannerpart css */
+.banner {
+    margin: 230px 130px;
+    background-image:
+        linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(79, 70, 194, 0.73)),
+        url("../images/watch.png");
+
+    background-repeat: no-repeat;
+    padding-top: 59px;
+    padding-left: 64px;
+    padding-right: 239px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+
+}
+
+
+
+.primary_btn2 {
+    width: 160px;
+    padding: 25px 20px;
+    color: #005FAC;
+    background-color:
+        #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 59px;
 
 }
