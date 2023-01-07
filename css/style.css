@@ -5,8 +5,34 @@
 
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
 
-/*this is the header part*/
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+nav ul li {
+    color: #1619d1;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav_title {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+
+}
+
 .headers {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
@@ -16,17 +42,19 @@
 
 .header {
     display: flex;
+    justify-content: right;
     gap: 25px;
     align-items: right;
 }
 
 .header2 {
-    margin-right: 150px;
+    /*margin-right: 50px;*/
     padding: 100px;
 }
 
 .header1 {
     width: 1000px;
+    margin: 200px;
 
 }
 
@@ -43,8 +71,7 @@
 .header-discription {
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 20px;
     text-align: right;
     color: #FFFFFF;
 }
@@ -150,12 +177,12 @@
 
 /* bannerpart css */
 .banner {
-    margin: 230px 130px;
+    margin: 230px 120px;
     background-image:
         linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(79, 70, 194, 0.73)),
         url("../images/watch.png");
-
     background-repeat: no-repeat;
+    border-radius: 10px;
     padding-top: 59px;
     padding-left: 64px;
     padding-right: 239px;
@@ -167,8 +194,6 @@
 
 }
 
-
-
 .primary_btn2 {
     width: 160px;
     padding: 25px 20px;
@@ -179,7 +204,7 @@
     border: 0px;
     text-align: center;
     margin-top: 24px;
-    margin-bottom: 59px;
+    margin-bottom: 16px;
 
 }
 
@@ -240,6 +265,15 @@
 
 .form_title {
     color: #F8F8F8;
+}
+
+input {
+    width: 325px;
+    padding: 20px;
+    background-color: #151414;
+    color: #e7e9eb;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .primary_btn3 {
